@@ -1,0 +1,104 @@
+button , .button{
+  background: $primary_color;
+  padding: 15px 0;
+  border:none;
+  border-radius: 5px;
+  color: $white_color;
+  a{
+    color: $white_color;
+    padding: 0 91px;
+    text-decoration: none;
+  }
+}
+.button{
+  padding: 15px 91px;
+  margin-top: 25px;
+}
+.scroll_down{
+  a {
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 12px/1 'Ralewaybold', Fallback, sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+    margin-top: 55px;
+    span {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 46px;
+      height: 46px;
+      margin-left: -23px;
+      border: 2px solid #fff;
+      border-radius: 100%;
+      box-sizing: border-box;
+      &:after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        content: '';
+        width: 12px;
+        height: 12px;
+        margin: -8px 0 0 -6px;
+        border-left: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        box-sizing: border-box;
+      }
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        content: '';
+        width: 44px;
+        height: 44px;
+        box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+        border-radius: 100%;
+        opacity: 0;
+        -webkit-animation: sdb03 3s infinite;
+        animation: sdb03 3s infinite;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

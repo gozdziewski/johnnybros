@@ -1,0 +1,35 @@
+#awards{
+  background: $white_color;
+  margin-top: -130px;
+  padding-bottom: 97px;
+  color: $black_color;
+  text-align: center;
+  display: flow-root;
+  .img-awards{
+    height: 100px;
+  }
+  h4{
+    padding-top: 220px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    padding-bottom: 11px;
+  }
+  h3{
+    padding-bottom: 48px;
+  }
+  .awards_box{
+    float:left;
+    h2{
+      color:$grey_color;
+      padding-bottom: 20px;
+    }
+    h5 {
+      padding: 0 15px;
+    }
+  }
+  .x1{
+    h2{
+      color: $primary_color !important;
+    }
+  }
+}

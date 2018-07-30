@@ -1,0 +1,13 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+    clear: both;
+}
+
+$max: 12;
+@for $i from 1 through $max{
+  $equ: 100% / $i;
+  .col-#{ $i } {
+    width: $equ;
+  }
+}

@@ -1,0 +1,61 @@
+#howto{
+  background: $grey_color;
+  display: flex;
+  padding-bottom: 95px;
+
+  .box_howto{
+    float: left;
+    display: grid;
+  }
+
+  .box_white{
+    z-index: 20;
+    margin-top: 103px;
+    background: $white_color;
+    border-radius: 5px;
+    padding: 48px;
+    h4{
+      color: $black_color;
+      opacity: 0.5;
+      text-transform: uppercase;
+      padding-bottom: 11px;
+    }
+    h3{
+      padding-bottom: 23px;
+    }
+    p{
+      padding-bottom: 33px;
+    }
+  }
+  .box_green {
+    z-index: 1;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 170px;
+    margin-left: -60px;
+    background: $primary_color;
+    color: $white_color;
+    p {
+      padding-left: 150px;
+    }
+    .avatar{
+      padding-top: 30px;
+      padding-left: 150px;
+
+      img{
+        height: 64px;
+        background: $white_color;
+        border-radius: 60px;
+        float:left;
+      }
+      .name{
+        float:left;
+        padding-left:17px;
+        padding-top: 15px;
+        p{
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

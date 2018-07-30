@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after { content: ''; content: none; }
+
+q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+@font-face { font-family: 'Ralewaybold'; src: url("../../assets/fonts/Raleway/Raleway-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Milluniumbold'; src: url("../../assets/fonts/Millunium_Bold/Millunium-Bold.ttf") format("truetype"); }
+@font-face { font-family: 'Ralewaymedium'; src: url("../../assets/fonts/Raleway/Raleway-Medium.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Ralewayregular'; src: url("../../assets/fonts/Raleway/Raleway-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+h1 { font-size: 64px; line-height: 64px; }
+
+h2 { font-size: 48px; line-height: 56px; }
+
+h3 { font-size: 32px; line-height: 38px; }
+
+h4 { font-size: 18px; line-height: 20px; }
+
+h5 { font-size: 16px; line-height: 18px; }
+
+p { font-size: 15px; line-height: 24px; }
+
+button, .button { font-size: 16px; line-height: 19px; }
+
+h1, h2, h3 { font-family: 'MilluniumBold', Fallback, sans-serif; }
+
+h4, h5, a, .button { font-family: 'Ralewaybold', Fallback, sans-serif; }
+
+p { font-family: 'Ralewaymedium', Fallback, sans-serif; }
+
+input, textarea { font-family: 'Ralewayregular', Fallback, sans-serif; }
+
+.container { max-width: 1200px; margin: 0 auto; clear: both; }
+
+.col-1 { width: 100%; }
+
+.col-2 { width: 50%; }
+
+.col-3 { width: 33.3333333333%; }
+
+.col-4 { width: 25%; }
+
+.col-5 { width: 20%; }
+
+.col-6 { width: 16.6666666667%; }
+
+.col-7 { width: 14.2857142857%; }
+
+.col-8 { width: 12.5%; }
+
+.col-9 { width: 11.1111111111%; }
+
+.col-10 { width: 10%; }
+
+.col-11 { width: 9.0909090909%; }
+
+.col-12 { width: 8.3333333333%; }
+
+nav { position: fixed; left: 0; right: 0; top: 0; background: transparent; z-index: 100; }
+nav .menu_logo { float: left; padding: 23px 0; }
+nav .menu { float: right; padding: 32px 0; text-align: right; }
+nav a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 15px; padding: 0 15px; }
+nav a:last-child { padding-right: 0; }
+
+#header { background-image: url("../../assets/images/pp-main-background.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; height: 720px; text-align: center; display: flex; }
+#header .banner_content { padding-top: 225px; color: #fff; max-width: 710px; }
+#header .banner_content h4 { padding-bottom: 5px; text-transform: uppercase; }
+#header .banner_content h1 { line-height: 76px; padding-bottom: 25px; }
+#header .banner_content p { padding: 0 30px; margin-bottom: 58px; }
+
+#tournament { background: #F4F4F4; padding-top: 103px; display: flex; }
+#tournament .box_white { z-index: 11; background: #fff; border-radius: 5px; padding: 48px; box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.18); }
+#tournament .box_white h4 { color: #000; opacity: 0.5; text-transform: uppercase; padding-bottom: 11px; }
+#tournament .box_white h3 { padding-bottom: 23px; }
+#tournament .box_white p { padding-bottom: 33px; }
+#tournament .box_green { padding: 40px; z-index: 23; border-radius: 5px; margin: 0 36px 0 64px; background: #3EAD48; color: #fff; }
+#tournament .box_green h4 { text-transform: uppercase; text-align: center; padding-bottom: 29px; }
+#tournament .box_green .count_box { float: left; text-align: center; }
+#tournament .box_green h5 { padding: 0 15px; }
+#tournament .box { float: left; display: grid; }
+#tournament .box_img { z-index: 10; margin-top: 80px; margin-left: -80px; background-image: url("../../assets/images/pp-foosball-match.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; height: 462px; border-radius: 5px; }
+
+#contact { background: #fff; padding: 105px 0 95px 0; display: flow-root; }
+#contact .contact_img { background-image: url("../../assets/images/pp-office.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; height: 420px; border-radius: 5px; }
+#contact .box_contact { float: left; }
+#contact .contact_form { padding: 30px 0px 30px 60px; }
+#contact .contact_form h4 { color: #000; opacity: 0.5; padding-bottom: 5px; text-transform: uppercase; }
+#contact .contact_form h3 { padding-bottom: 23px; }
+#contact .contact_form .form .form--email, #contact .contact_form .form .form--name { border: none; border-bottom: 2px solid #F4F4F4; width: 48%; float: left; padding-bottom: 10px; }
+#contact .contact_form .form .form--email { margin-left: 20px; }
+#contact .contact_form .form textarea { margin-top: 25px; border-radius: 5px; border: 1px solid #F4F4F4; height: 110px; }
+
+#awards { background: #fff; margin-top: -130px; padding-bottom: 97px; color: #000; text-align: center; display: flow-root; }
+#awards .img-awards { height: 100px; }
+#awards h4 { padding-top: 220px; text-transform: uppercase; opacity: 0.5; padding-bottom: 11px; }
+#awards h3 { padding-bottom: 48px; }
+#awards .awards_box { float: left; }
+#awards .awards_box h2 { color: #F4F4F4; padding-bottom: 20px; }
+#awards .awards_box h5 { padding: 0 15px; }
+#awards .x1 h2 { color: #3EAD48 !important; }
+
+#howto { background: #F4F4F4; display: flex; padding-bottom: 95px; }
+#howto .box_howto { float: left; display: grid; }
+#howto .box_white { z-index: 20; margin-top: 103px; background: #fff; border-radius: 5px; padding: 48px; }
+#howto .box_white h4 { color: #000; opacity: 0.5; text-transform: uppercase; padding-bottom: 11px; }
+#howto .box_white h3 { padding-bottom: 23px; }
+#howto .box_white p { padding-bottom: 33px; }
+#howto .box_green { z-index: 1; padding: 40px; border-radius: 5px; margin-top: 170px; margin-left: -60px; background: #3EAD48; color: #fff; }
+#howto .box_green p { padding-left: 150px; }
+#howto .box_green .avatar { padding-top: 30px; padding-left: 150px; }
+#howto .box_green .avatar img { height: 64px; background: #fff; border-radius: 60px; float: left; }
+#howto .box_green .avatar .name { float: left; padding-left: 17px; padding-top: 15px; }
+#howto .box_green .avatar .name p { padding-left: 0; }
+
+button, .button { background: #3EAD48; padding: 15px 0; border: none; border-radius: 5px; color: #fff; }
+button a, .button a { color: #fff; padding: 0 91px; text-decoration: none; }
+
+.button { padding: 15px 91px; margin-top: 25px; }
+
+.scroll_down a { position: absolute; left: 50%; z-index: 2; display: inline-block; -webkit-transform: translate(0, -50%); transform: translate(0, -50%); color: #fff; font: normal 400 12px/1 'Ralewaybold', Fallback, sans-serif; letter-spacing: .1em; text-decoration: none; transition: opacity .3s; margin-top: 55px; }
+.scroll_down a span { position: absolute; top: 0; left: 50%; width: 46px; height: 46px; margin-left: -23px; border: 2px solid #fff; border-radius: 100%; box-sizing: border-box; }
+.scroll_down a span:after { position: absolute; top: 50%; left: 50%; content: ''; width: 12px; height: 12px; margin: -8px 0 0 -6px; border-left: 3px solid #fff; border-bottom: 3px solid #fff; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); box-sizing: border-box; }
+.scroll_down a span:before { position: absolute; top: 0; left: 0; z-index: -1; content: ''; width: 44px; height: 44px; box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1); border-radius: 100%; opacity: 0; -webkit-animation: sdb03 3s infinite; animation: sdb03 3s infinite; box-sizing: border-box; }
+
+@-webkit-keyframes sdb03 { 0% { opacity: 0; }
+  30% { opacity: 1; }
+  60% { box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1); opacity: 0; }
+  100% { opacity: 0; } }
+@keyframes sdb03 { 0% { opacity: 0; }
+  30% { opacity: 1; }
+  60% { box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1); opacity: 0; }
+  100% { opacity: 0; } }
+footer { background: #1E3066; }
+footer p { color: #fff; text-align: center; padding: 43px 0; }
+
+/*# sourceMappingURL=style.css.map */
